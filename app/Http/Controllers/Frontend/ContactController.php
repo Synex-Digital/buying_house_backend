@@ -13,11 +13,11 @@ class ContactController extends Controller
         $validated = $request->validate([
             'name' => 'required|max:255',
             'email' => 'required|email',
-            'number' => 'required|numeric|digits:11',
+            'number' => 'required',
             'company_name' => 'required|max:255',
             'message' => 'required|max:255',
         ]);
-        
+
         Contact::insert([
             'name' => $request->name,
             'email' => $request->email,

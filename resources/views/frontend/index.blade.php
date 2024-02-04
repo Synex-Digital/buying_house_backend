@@ -3,7 +3,8 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <title>LN Associate Limited</title>
+        <link rel="shortcut icon" href="{{ asset('logo.png') }}" type="image/x-icon">
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -161,7 +162,7 @@
                     <h6 class="font-ru text-white text-3xl mb-8">
                         Get Free Estimate
                     </h6>
-                    <a
+                    <a href="{{ route('contact') }}"
                         class="uppercase font-ru lg:font-medium text-white z-10 px-[10px] lg:px-8 py-2 button"
                         ><span class="hoverspan"></span>Request Online Form</a
                     >
@@ -176,17 +177,19 @@
                         <li
                             class="hover:text-primary cursor-pointer transition duration-300 ease-in-out"
                         >
-                            Services
+                            <a href="{{ route('service') }}">Services</a>
                         </li>
                         <li
                             class="hover:text-primary cursor-pointer transition duration-300 ease-in-out"
                         >
-                            About
+                            <a href="{{ route('about') }}">About</a>
                         </li>
                         <li
                             class="hover:text-primary cursor-pointer transition duration-300 ease-in-out"
                         >
+                        <a href="{{ route('mission.and.vission') }}">
                             Mission Vision
+                        </a>
                         </li>
                     </ul>
                 </div>
@@ -201,15 +204,13 @@
                     <div class="flex gap-x-5 mt-5">
                         <i class="fa-solid fa-phone text-primary"></i>
                         <p class="text-white font-ru font-medium">
-                            +8801703017360<br />
                             +8801726225633
                         </p>
                     </div>
                     <div class="flex gap-x-5 mt-5">
                         <i class="fa-solid fa-envelope text-primary"></i>
                         <p class="text-white font-ru font-medium">
-                            Md Zaherul Islam<br />
-                            zaherul.islam1978@gmail.com<br />
+                            zaherul@lnassociatelimited.com<br />
                         </p>
                     </div>
                 </div>
@@ -217,13 +218,13 @@
             <div
                 class="font-ru px-2 font-medium text-white mt-12 border-t pt-8 border-[#27272771] flex justify-center"
             >
-                Copyright © 2024 LN Associate Limited . Develope By
+                Copyright © 2024 LN Associate Limited . Developed By
                 <a
                     class="text-primary ml-1 smd:max-md:contents"
                     href="https://synexdigital.com/"
                     target="_blank"
                 >
-                    Synex digital</a
+                    Synex Digital</a
                 >
             </div>
         </footer>

@@ -108,7 +108,7 @@
                             <div class="p-5 shadow-xl md:max-lg:w-full sm:w-[48%]">
                                 <img
                                     class="w-[400px]"
-                                    src="{{ asset('frontend/asset') }}/assets/showroom.jpg"
+                                    src="{{ asset('frontend/asset/assets/x (1).webp') }}"
                                 />
                                 <div
                                     class="flex justify-between items-center mt-5"
@@ -116,7 +116,7 @@
                                     <h6
                                         class="font-ru text-xl font-medium text-textcolor"
                                     >
-                                        Testing
+                                        Design
                                     </h6>
                                     <i
                                         class="fa-solid fa-arrow-trend-up text-2xl text-textcolor"
@@ -126,7 +126,7 @@
                             <div class="p-5 shadow-xl md:max-lg:w-full sm:w-[48%]">
                                 <img
                                     class="w-[400px]"
-                                    src="{{ asset('frontend/asset') }}/assets/showroom.jpg"
+                                    src="{{ asset('frontend/asset/assets/x (3).webp') }}"
                                 />
                                 <div
                                     class="flex justify-between items-center mt-5"
@@ -134,7 +134,7 @@
                                     <h6
                                         class="font-ru text-xl font-medium text-textcolor"
                                     >
-                                        Engineering
+                                    Merchandising
                                     </h6>
                                     <i
                                         class="fa-solid fa-arrow-trend-up text-2xl text-textcolor"
@@ -144,7 +144,7 @@
                             <div class="p-5 shadow-xl md:max-lg:w-full sm:w-[48%]">
                                 <img
                                     class="w-[400px]"
-                                    src="{{ asset('frontend/asset') }}/assets/showroom.jpg"
+                                    src="{{ asset('frontend/asset/assets/x (2).webp') }}"
                                 />
                                 <div
                                     class="flex justify-between items-center mt-5"
@@ -152,7 +152,7 @@
                                     <h6
                                         class="font-ru text-xl font-medium text-textcolor"
                                     >
-                                        Fabric Dyeing
+                                    Quality Assurance
                                     </h6>
                                     <i
                                         class="fa-solid fa-arrow-trend-up text-2xl text-textcolor"
@@ -162,7 +162,7 @@
                             <div class="p-5 shadow-xl md:max-lg:w-full sm:w-[48%]">
                                 <img
                                     class="w-[400px]"
-                                    src="{{ asset('frontend/asset') }}/assets/showroom.jpg"
+                                    src="{{ asset('frontend/asset/assets/x.webp') }}"
                                 />
                                 <div
                                     class="flex justify-between items-center mt-5"
@@ -170,7 +170,61 @@
                                     <h6
                                         class="font-ru text-xl font-medium text-textcolor"
                                     >
-                                        Fabric Printing
+                                    Shipping
+                                    </h6>
+                                    <i
+                                        class="fa-solid fa-arrow-trend-up text-2xl text-textcolor"
+                                    ></i>
+                                </div>
+                            </div>
+                            <div class="p-5 shadow-xl md:max-lg:w-full sm:w-[48%]">
+                                <img
+                                    class="w-[400px]"
+                                    src="{{ asset('frontend/asset/assets/x4.webp') }}"
+                                />
+                                <div
+                                    class="flex justify-between items-center mt-5"
+                                >
+                                    <h6
+                                        class="font-ru text-xl font-medium text-textcolor"
+                                    >
+                                    Compliance
+                                    </h6>
+                                    <i
+                                        class="fa-solid fa-arrow-trend-up text-2xl text-textcolor"
+                                    ></i>
+                                </div>
+                            </div>
+                            <div class="p-5 shadow-xl md:max-lg:w-full sm:w-[48%]">
+                                <img
+                                    class="w-[400px]"
+                                    src="{{ asset('frontend/asset/assets/x5.webp') }}"
+                                />
+                                <div
+                                    class="flex justify-between items-center mt-5"
+                                >
+                                    <h6
+                                        class="font-ru text-xl font-medium text-textcolor"
+                                    >
+                                    IT & Communication
+                                    </h6>
+                                    <i
+                                        class="fa-solid fa-arrow-trend-up text-2xl text-textcolor"
+                                    ></i>
+                                </div>
+                            </div>
+                            <div class="p-5 shadow-xl md:max-lg:w-full sm:w-[48%]">
+                                <img
+                                    class="w-[400px]"
+                                    src="{{ asset('frontend/asset/assets/x7.webp') }}"
+                                />
+                                <div
+                                    class="flex justify-between items-center mt-5"
+                                >
+                                    <h6
+                                        class="font-ru text-xl font-medium text-textcolor"
+                                    >
+                                    Lab
                                     </h6>
                                     <i
                                         class="fa-solid fa-arrow-trend-up text-2xl text-textcolor"

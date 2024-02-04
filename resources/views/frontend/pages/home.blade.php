@@ -88,7 +88,7 @@
                         <h3 class="font-ru font-medium text-center text-ptagcolor text-lg">
                             A Trusted apparels sourcing house in <br />
                             The World
-                            <a class="text-primary underline">Buying House</a>
+                            <a class="text-primary">Buying House</a>
                         </h3>
                     </div>
                 </div>
@@ -120,17 +120,16 @@
                         </h4>
                         <p class="text-ptagcolor font-ru font-semibold pb-7">
                             One of the largest & most reputed Buying House
-                            in Bangladesh & globe.
+                            in Bangladesh & Globe Since 2007.
                         </p>
                     </div>
                     <div class="md:w-[48%] border-t md:border-l md:pl-5 pt-7">
                         <img src="{{ asset('frontend/asset') }}/assets/Fabric.svg" class="w-16" />
                         <h4 class="font-ru text-2xl font-semibold my-5 text-textcolor">
-                            Fabric Designs
+                            Support Buying Team
                         </h4>
                         <p class="text-ptagcolor font-ru font-semibold pb-7">
-                            Gold trophy 5 years in a row for being the
-                            largest exporter
+                            Build “Concept to Customer” timeline for spring/summer and autumn/winter development and advise best time and frequency of travel.
                         </p>
                     </div>
                 </div>
@@ -171,9 +170,8 @@
         <section class="pt-20 bg-[#00000090] pb-16">
             <div class="container px-2 mx-auto">
                 <h2 class="font-ru font-medium text-white smd:max-md:text-xl text-2xl lg:text-4xl text-center">
-                    The Textile,Product, And Apparel<br />
-                    <span class="text-primary font-bold">Manufacturing</span>
-                    Industries.
+                    The Textile, Product<br /> & Apparel
+                    <span class="text-primary font-bold">Sourcing</span>
                 </h2>
                 <div class="flex smd:max-md:flex-wrap lg:gap-x-28 smd:max-md:justify-between my-10">
                     <div class="flex flex-col justify-center items-center mx-auto smd:max-md:w-[48%]">
@@ -181,7 +179,7 @@
                             class="w-24 border rounded-lg border-[#ffffffa1] p-5" />
                         <div class="bg-primary w-3 h-3 rounded-full mt-4"></div>
                         <p class="font-ru text-4xl font-semibold mt-5 mb-3 text-white">
-                            350
+                            40
                         </p>
                         <p class="text-white font-ru font-medium pb-7">
                             Trusted Clients
@@ -192,7 +190,7 @@
                             class="w-24 text-white border rounded-lg border-[#ffffffa1] p-5" />
                         <div class="bg-primary w-3 h-3 rounded-full mt-4"></div>
                         <p class="font-ru text-4xl font-semibold mt-5 mb-3 text-white">
-                            250
+                            600
                         </p>
                         <p class="text-white font-ru font-medium pb-7">
                             Finished Projects
@@ -203,7 +201,7 @@
                             class="w-24 border rounded-lg border-[#ffffffa1] p-5" />
                         <div class="bg-primary w-3 h-3 rounded-full mt-4"></div>
                         <p class="font-ru text-4xl font-semibold mt-5 mb-3 text-white">
-                            25
+                            17
                         </p>
                         <p class="text-white font-ru font-medium pb-7">
                             Years Of Experience
@@ -214,7 +212,7 @@
                             class="w-24 border rounded-lg border-[#ffffffa1] p-5" />
                         <div class="bg-primary w-3 h-3 rounded-full mt-4"></div>
                         <p class="font-ru text-4xl font-semibold mt-5 mb-3 text-white">
-                            45
+                            200+
                         </p>
                         <p class="text-white font-ru font-medium pb-7">
                             Visited Conference
@@ -223,7 +221,7 @@
                 </div>
                 <p class="font-ru font-medium text-white text-center">
                     Don’t hesitate, contact us for better help and services.
-                    <a class="underline text-primary">View More!</a>
+                    <a href="{{ route('service') }}" class="underline text-primary">View More!</a>
                 </p>
             </div>
         </section>
@@ -251,42 +249,42 @@
                 </div>
                 <div class="lg:flex mt-7 gap-x-5">
                     <div class="p-5 shadow-xl">
-                        <img class="lg:w-[400px]" src="{{ asset('frontend/asset') }}/assets/showroom.jpg" />
+                        <img class="lg:w-[400px]" src="{{ asset('frontend/asset/assets/x (1).webp') }}" />
                         <div class="flex justify-between items-center mt-5">
                             <h6 class="font-ru text-3xl font-medium text-textcolor">
-                                Testing
+                                Design
                             </h6>
                             <i class="fa-solid fa-arrow-trend-up text-2xl text-textcolor"></i>
                         </div>
                     </div>
                     <div class="p-5 shadow-xl">
-                        <img class="lg:w-[400px]" src="{{ asset('frontend/asset') }}/assets/showroom.jpg" />
+                        <img class="lg:w-[400px]" src="{{ asset('frontend/asset/assets/x (3).webp') }}" />
                         <div class="flex justify-between items-center mt-5">
                             <h6 class="font-ru text-3xl font-medium text-textcolor">
-                                Engineering
+                                Merchandising
                             </h6>
                             <i class="fa-solid fa-arrow-trend-up text-2xl text-textcolor"></i>
                         </div>
                     </div>
                     <div class="p-5 shadow-xl">
-                        <img class="lg:w-[400px]" src="{{ asset('frontend/asset') }}/assets/showroom.jpg" />
+                        <img class="lg:w-[400px]" src="{{ asset('frontend/asset/assets/x (2).webp') }}" />
                         <div class="flex justify-between items-center mt-5">
                             <h6 class="font-ru text-3xl font-medium text-textcolor">
-                                Fabric Dyeing
+                                Quality Assurance
                             </h6>
                             <i class="fa-solid fa-arrow-trend-up text-2xl text-textcolor"></i>
                         </div>
                     </div>
                 </div>
                 <div class="flex justify-center mt-7">
-                    <a class="uppercase font-ru font-medium text-primary px-10 py-2 button !bg-white !z-10"><span
+                    <a href="{{ route('service') }}" class="uppercase font-ru font-medium text-primary px-10 py-2 button !bg-white !z-10"><span
                             class="hoverspan"></span>View More
                         Services!</a>
                 </div>
             </div>
         </section>
 
-        <section class="bg-white pt-8 pb-16 border-t">
+        {{-- <section class="bg-white pt-8 pb-16 border-t">
             <div class="container mx-auto px-2 xl:flex xl:gap-x-3 justify-between">
                 <div class="xl:w-[20%]">
                     <img width="200px" src="{{ asset('frontend/asset') }}/assets/logo title 1.png" />
@@ -311,8 +309,8 @@
                         class="fa-brands fa-linkedin w-14 bg-slate-100 flex items-center justify-center h-14 p-4 shadow-lg rounded-full"></i>
                 </div>
             </div>
-        </section>
+        </section> --}}
     </div>
-    
+
 </main>
 @endsection

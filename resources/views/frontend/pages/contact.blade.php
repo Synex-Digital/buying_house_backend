@@ -18,11 +18,11 @@
                 <h2 class="flex justify-center lg:mt-20 mt-10 mb-5 text-5xl font-semibold text-textcolor">
                     Contact Form
                 </h2>
-                <p class="font-medium text-ptagcolor contents sm:flex justify-center">
+                {{-- <p class="font-medium text-ptagcolor contents sm:flex justify-center">
                     Feel free to contact us through
                     <a class="text-primary mx-2">Twitter</a> or
                     <a class="text-primary mx-2">Facebook</a> if you prefer.
-                </p>
+                </p> --}}
                 <form action="{{ route('contact.message.store') }}" method="POST">
                     @csrf
                     <div class="lg:px-16 px-5 py-16 mt-10 shadow-xl bg-slate-100 rounded-lg">
@@ -45,7 +45,7 @@
                             <input class="sm:w-[32%] w-full border p-4" placeholder="Phone Number*" name="number" required/>
                         </div>
                         <div class="sm:flex justify-between my-7">
-                            <input class="sm:w-[48%] w-full border p-4" placeholder="Conpany Name*" name="company_name" required/>
+                            <input class="sm:w-[48%] w-full border p-4" placeholder="Company Name*" name="company_name" required/>
                             <input class="sm:w-[48%] smd:max-sm:mt-5 w-full border p-4" placeholder="Subject" name="subject"/>
                         </div>
                         <div class="flex justify-between my-7">
@@ -60,7 +60,7 @@
                 <div class="xl:flex gap-x-5 mt-28">
                     <div class="xl:w-1/2">
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.02637707981!2d90.37117441058695!3d23.74643878382104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40311a29c1f9eaa9%3A0x7eda334fe00e121c!2sSynex%20Digital!5e0!3m2!1sen!2sbd!4v1705259682326!5m2!1sen!2sbd"
+                            src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d7297.526432297317!2d90.4047817!3d23.8625405!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1707069838148!5m2!1sen!2sbd"
                             width="100%" height="450" style="border: 0" allowfullscreen="" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>

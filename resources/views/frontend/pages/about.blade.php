@@ -99,13 +99,12 @@
                             class="bg-white relative shadow-lg inline-block bottom-8 font-ru md:p-3 p-3 sm:p-1"
                         >
                             <p
-                                class="font-medium text-primary text-2xl"
+                                class="font-medium text-primary text-xl"
                             >
-                                Jahid
+                            Md Zaherul Islam
                             </p>
                             <p class="text-textcolor font-medium">
-                                INTERNATIONAL,<br />
-                                MARKETING DIRECTOR
+                                Managing Director
                             </p>
                         </div>
                     </div>
@@ -118,32 +117,12 @@
                             class="bg-white relative shadow-lg inline-block bottom-8 font-ru md:p-3 p-3 sm:p-1"
                         >
                             <p
-                                class="font-medium text-primary text-2xl"
+                                class="font-medium text-primary text-xl"
                             >
-                                Jahid
+                            Md Alamgir Hossain
                             </p>
                             <p class="text-textcolor font-medium">
-                                INTERNATIONAL,<br />
-                                MARKETING DIRECTOR
-                            </p>
-                        </div>
-                    </div>
-                    <div>
-                        <img
-                            class="md:w-[250px] h-[350px] sm:w-[200px] sm:h-[300px]"
-                            src="{{ asset('frontend/asset') }}/assets/bg2.jpg"
-                        />
-                        <div
-                            class="bg-white relative shadow-lg inline-block bottom-8 font-ru md:p-3 p-3 sm:p-1"
-                        >
-                            <p
-                                class="font-medium text-primary text-2xl"
-                            >
-                                Jahid
-                            </p>
-                            <p class="text-textcolor font-medium">
-                                INTERNATIONAL,<br />
-                                MARKETING DIRECTOR
+                                Director
                             </p>
                         </div>
                     </div>
