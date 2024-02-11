@@ -39,8 +39,10 @@ class ProductController extends Controller
     // new product store
     function product_store(Request $request){
         $request->validate([
-            'title' => 'required|max:255',
-            'images' => 'required',
+            'title'                 => 'required|max:255',
+            'images'                => 'required',
+            'parent_category_id'    => 'required',
+            'category_id'           => 'required',
         ]);
         $product_id = Product::insertGetId([
             'parent_category_id' => $request->parent_category_id,
@@ -96,7 +98,10 @@ class ProductController extends Controller
     // product update
     function product_update(Request $request){
         $request->validate([
-            'title' => 'required|max:255',
+            'title'                 => 'required|max:255',
+            'parent_category_id'    => 'required',
+            'category_id'           => 'required',
+
         ]);
 
         if ($request->images) {
