@@ -38,12 +38,13 @@
                     @endforeach
                 </div>
                 <div class="sm:w-[65%] flex flex-wrap gap-4 smd:max-sm:mt-5">
-                    @foreach ($products as $product)
+                    @foreach ($products as $product )
                         <a class="block sm:w-[48%] xl:w-[32%] cursor-pointer shadow-lg rounded-md p-3 hover:border-primary border"
                             href="{{ route('product.details', ['id' => $product->id]) }}">
+
                             <img class="" class="object-cover" src="{{ asset('images/product/' . $product->thumbnail[0]->images) }}" alt="">
                             <p class="font-medium text-center mt-3">
-                                {{ strtoupper($product->parentcategory) }}
+                                {{ strtoupper($product->title) }}
                             </p>
                         </a>
                     @endforeach
