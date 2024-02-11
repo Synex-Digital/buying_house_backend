@@ -20,7 +20,7 @@
                 <div class="sm:w-[32%] border-t ">
                     @foreach ($categories as $category)
                     <div class="w-full cursor-pointer pt-5">
-                        <a href="#" class="font-medium smd:max-sm:px-6 sm:px-2 md:px-6 z-10 hovercategorydiv border py-4 flex justify-between toggle-category">
+                        <a class="font-medium smd:max-sm:px-6 sm:px-2 md:px-6 z-10 hovercategorydiv border py-4 flex justify-between toggle-category">
                             {{-- {{ route('categories.product', ['id' => $category->id]) }} --}}
                             {{ strtoupper($category->category_name) }}
                             <span class="text-xl sm:hidden lg:block">></span><span class="hovercategory"></span></a>
