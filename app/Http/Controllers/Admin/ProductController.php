@@ -57,6 +57,7 @@ class ProductController extends Controller
                 $manager = new ImageManager(new Driver());
                 $name_gen = hexdec(uniqid()).'.'. $thumbnail->getClientOriginalExtension();
                 $image = $manager->read($thumbnail);
+                $image->resize(500, 500);
                 $image->save(public_path('images/product/'.$name_gen));
                ProductImage::insert([
                 'product_id'=>$product_id,
@@ -122,6 +123,7 @@ class ProductController extends Controller
                     $manager = new ImageManager(new Driver());
                     $name_gen = hexdec(uniqid()).'.'. $thumbnail->getClientOriginalExtension();
                     $image = $manager->read($thumbnail);
+                    $image->resize(500, 500);
                     $image->save(public_path('images/product/'.$name_gen));
                    ProductImage::insert([
                     'product_id'=>$request->id,
