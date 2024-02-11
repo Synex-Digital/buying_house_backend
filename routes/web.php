@@ -55,6 +55,7 @@ Route::get('/mission/and/vission', [FrontendController::class, 'mission_and_viss
 Route::get('/contact', [FrontendController::class, 'contact'])->name('contact');
 Route::get('/product/details/{id}', [FrontendController::class, 'product_details'])->name('product.details');
 Route::get('/categories/product/{id}', [FrontendController::class, 'categories_product'])->name('categories.product');
+Route::get('/subcategories/product/{id}', [FrontendController::class, 'subcategories_product'])->name('subcategories.product');
 
 
 // frontend contact message route start

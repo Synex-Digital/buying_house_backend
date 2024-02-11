@@ -60,4 +60,11 @@ class FrontendController extends Controller
         $products = Product::where('parent_category_id', $id)->get();
         return view('frontend.pages.categories_products', compact('products', 'categories','cat'));
     }
+
+    function subcategories_product($id){
+        $cat = Category::find($id);
+        $categories = Category::where('parent_category_id', null)->get();
+        $products = Product::where('category_id', $id)->get();
+        return view('frontend.pages.categories_products', compact('products', 'categories','cat'));
+    }
 }

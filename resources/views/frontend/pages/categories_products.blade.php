@@ -4,7 +4,9 @@
         <section style="background-image: url({{ asset('frontend/asset') }}/assets/office.webp)">
             <div class="pt-20 text-white font-ru bg-[#515a60d6]">
                 <h2 class="flex justify-center mt-20 mb-5 text-5xl font-semibold">
-                    {{ $cat?$cat->category_name:'All Category' }}
+                    @if ($cat)
+                        {{ $cat->parentcategory?$cat->parentcategory->category_name : 'All Category' }}
+                    @endif
                 </h2>
                 <div class="flex justify-center items-center gap-x-4 pb-20">
                     <a href="{{ route('home') }}">Home </a>
@@ -26,7 +28,7 @@
                                 {{-- {{ $category->childCategories }} --}}
                                 @if ($category->childCategories)
                                     @foreach ($category->childCategories as $child)
-                                    <a href="{{ route('categories.product', ['id' => $child->id]) }}" class="font-medium smd:max-sm:px-6 sm:px-2 md:px-6 z-10 hovercategorydiv border py-4 flex justify-between">
+                                    <a href="{{ route('subcategories.product', ['id' => $child->id]) }}" class="font-medium smd:max-sm:px-6 sm:px-2 md:px-6 z-10 hovercategorydiv border py-4 flex justify-between">
                                         {{ strtoupper($child->category_name) }}
                                         <span class="text-xl sm:hidden lg:block">></span><span class="hovercategory"></span></a>
                                     @endforeach
