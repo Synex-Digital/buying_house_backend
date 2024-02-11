@@ -5,19 +5,19 @@
         <section class="pt-[74px] relative">
             <div class="owl-carousel carousel1">
                 <div>
-                    <img class="h-[100vh] object-cover" src="{{ asset('frontend/asset') }}/assets/bg1.jpg" />
+                    <img class="h-[100vh] object-cover" src="{{ asset('frontend/asset/assets/bg1.jpg') }}" />
                 </div>
                 <div>
-                    <img class="h-[100vh] object-cover" src="{{ asset('frontend/asset') }}/assets/bg1.jpg" />
+                    <img class="h-[100vh] object-cover" src="{{ asset('frontend/asset/assets/bg2.jpg') }}" />
                 </div>
                 <div>
-                    <img class="h-[100vh] object-cover" src="{{ asset('frontend/asset') }}/assets/buying-house.jpg" />
+                    <img class="h-[100vh] object-cover" src="{{ asset('frontend/asset/assets/buying-house.jpg') }}" />
                 </div>
                 <div>
-                    <img class="h-[100vh] object-cover" src="{{ asset('frontend/asset') }}/assets/buying-house.jpg" />
+                    <img class="h-[100vh] object-cover" src="{{ asset('frontend/asset/assets/bg1.jpg') }}" />
                 </div>
                 <div>
-                    <img class="h-[100vh] object-cover" src="{{ asset('frontend/asset') }}/assets/buying-house.jpg" />
+                    <img class="h-[100vh] object-cover" src="{{ asset('frontend/asset/assets/buying-house.jpg.jpg') }}" />
                 </div>
             </div>
             <div class="flex justify-center w-full gap-x-5 absolute top-[45%] z-[2]">
@@ -31,7 +31,7 @@
         <section class="pt-20 bg-white">
             <div class="container mx-auto px-2 md:flex gap-x-2 smd:max-md:text-justify">
                 <div class="md:w-1/2 smd:max-md:flex justify-center">
-                    <img src="{{ asset('frontend/asset') }}/assets/buying-house.jpg" />
+                    <img src="{{ asset('frontend/asset/assets/buying-house.jpg.jpg') }}" />
                 </div>
                 <div class="md:w-1/2">
                     <p class="font-ru text-primary font-medium smd:max-md:text-center smd:max-md:mt-5">
@@ -143,25 +143,25 @@
             </div>
             <div class="owl-carousel carousel2 mt-16">
                 <div>
-                    <img class="object-cover h-[300px]" src="{{ asset('frontend/asset') }}/assets/bg1.jpg" />
+                    <img class="object-cover h-[300px]" src="{{ asset('frontend/asset/assets/bg1.jpg') }}" />
                 </div>
                 <div>
-                    <img class="object-cover h-[300px]" src="{{ asset('frontend/asset') }}/assets/bg1.jpg" />
+                    <img class="object-cover h-[300px]" src="{{ asset('frontend/asset/assets/bg2.jpg') }}" />
                 </div>
                 <div>
-                    <img class="object-cover h-[300px]" src="{{ asset('frontend/asset') }}/assets/buying-house.jpg" />
+                    <img class="object-cover h-[300px]" src="{{ asset('frontend/asset/assets/buying-house.jpg.jpg') }}" />
                 </div>
                 <div>
-                    <img class="object-cover h-[300px]" src="{{ asset('frontend/asset') }}/assets/buying-house.jpg" />
+                    <img class="object-cover h-[300px]" src="{{ asset('frontend/asset/assets/bg1.jpg') }}" />
                 </div>
                 <div>
-                    <img class="object-cover h-[300px]" src="{{ asset('frontend/asset') }}/assets/buying-house.jpg" />
+                    <img class="object-cover h-[300px]" src="{{ asset('frontend/asset/assets/bg2.jpg') }}" />
                 </div>
                 <div>
-                    <img class="object-cover h-[300px]" src="{{ asset('frontend/asset') }}/assets/buying-house.jpg" />
+                    <img class="object-cover h-[300px]" src="{{ asset('frontend/asset/assets/buying-house.jpg.jpg') }}" />
                 </div>
                 <div>
-                    <img class="object-cover h-[300px]" src="{{ asset('frontend/asset') }}/assets/buying-house.jpg" />
+                    <img class="object-cover h-[300px]" src="{{ asset('frontend/asset/assets/bg2.jpg') }}" />
                 </div>
             </div>
         </section>

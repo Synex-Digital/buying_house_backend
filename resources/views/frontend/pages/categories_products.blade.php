@@ -40,7 +40,7 @@
                 <div class="sm:w-[65%] flex flex-wrap gap-4 smd:max-sm:mt-5">
                     @foreach ($products as $product )
                         <a class="block sm:w-[48%] xl:w-[32%] cursor-pointer shadow-lg rounded-md p-3 hover:border-primary border"
-                            href="{{ route('product.details', ['id' => $product->id]) }}">
+                            href="{{ route('product.details', ['id' => $product->id]) }}" style="height: fit-content;">
 
                             <img class="" class="object-cover" src="{{ asset('images/product/' . $product->thumbnail[0]->images) }}" alt="">
                             <p class="font-medium text-center mt-3">
