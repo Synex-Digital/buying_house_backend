@@ -13,7 +13,7 @@ use Intervention\Image\Drivers\Gd\Driver;
 
 class AdminController extends Controller
 {
-    // admin register view 
+    // admin register view
     function admin_register(){
         $admin = Admin::count();
         if ($admin != 0) {
@@ -23,7 +23,7 @@ class AdminController extends Controller
         }
     }
 
-    // store new admin 
+    // store new admin
     function admin_store(Request $request){
         $validated = $request->validate([
             'name' => 'required|max:255',
@@ -56,13 +56,12 @@ class AdminController extends Controller
         }
     }
 
-
-    // admin login viwe 
+    // admin login viwe
     function admin_login(){
         return view('backend.layouts.admin_login');
     }
 
-    // admin login attempt 
+    // admin login attempt
     function login_admin(Request $request){
         $request->validate([
             'email' => 'required|max:255',
@@ -78,7 +77,11 @@ class AdminController extends Controller
         }
     }
 
-    // dashboard view 
+    function clientShow(){
+        return view('frontend.pages.clientList');
+    }
+
+    // dashboard view
     function dashboard(){
         return view('backend.dashboard.dashboard');
     }

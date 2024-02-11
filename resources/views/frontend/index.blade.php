@@ -1,3 +1,10 @@
+<?php
+
+use App\Models\Category;
+
+$categories = Category::where('parent_category_id', null)->get();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -67,15 +74,11 @@
                         >
                             <span class="nav_product">
                                 <ul class="flex flex-col gap-y-4">
-                                    <li class="border-b pb-2">
-                                        CIRCULAR KNIT ITEMS
-                                    </li>
-                                    <li class="border-b pb-2">
-                                        SWEATER / FLAT KNIT
-                                    </li>
-                                    <li class="border-b pb-2">DENIM ITEMS</li>
-                                    <li class="border-b pb-2">WOVEN ITEMS</li>
-                                    <li>UNDERGARMENTS</li>
+                                    @foreach ($categories as $category )
+                                        <li class="border-b pb-2">
+                                            {{ $category->category_name }}
+                                        </li>
+                                    @endforeach
                                 </ul>
                             </span>
                             Products
@@ -126,7 +129,7 @@
                             <span class="nav_product">
                                 <ul class="flex flex-col gap-y-4">
                                     <li class="border-b pb-2">
-                                        CIRCULAR KNIT ITEMS
+                                        CIRCULAR KNIT ITEMSs
                                     </li>
                                     <li class="border-b pb-2">
                                         SWEATER / FLAT KNIT
@@ -298,5 +301,7 @@
             });
         </script>
         <!-- JS end -->
+
+        @yield('script')
     </body>
 </html>

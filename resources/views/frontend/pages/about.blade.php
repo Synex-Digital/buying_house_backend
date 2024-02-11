@@ -93,7 +93,7 @@
                     <div>
                         <img
                             class="md:w-[250px] h-[350px] sm:w-[200px] sm:h-[300px]"
-                            src="{{ asset('frontend/asset') }}/assets/bg2.jpg"
+                            src="{{ asset('zaherul.jpg') }}"
                         />
                         <div
                             class="bg-white relative shadow-lg inline-block bottom-8 font-ru md:p-3 p-3 sm:p-1"
@@ -111,7 +111,7 @@
                     <div>
                         <img
                             class="md:w-[250px] h-[350px] sm:w-[200px] sm:h-[300px]"
-                            src="{{ asset('frontend/asset') }}/assets/bg2.jpg"
+                            src="{{ asset('alamgir.jpg') }}"
                         />
                         <div
                             class="bg-white relative shadow-lg inline-block bottom-8 font-ru md:p-3 p-3 sm:p-1"

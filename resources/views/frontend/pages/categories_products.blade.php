@@ -4,12 +4,12 @@
         <section style="background-image: url({{ asset('frontend/asset') }}/assets/office.webp)">
             <div class="pt-20 text-white font-ru bg-[#515a60d6]">
                 <h2 class="flex justify-center mt-20 mb-5 text-5xl font-semibold">
-                    All Products
+                    {{ $cat?$cat->category_name:'All Category' }}
                 </h2>
                 <div class="flex justify-center items-center gap-x-4 pb-20">
                     <a href="{{ route('home') }}">Home </a>
                     <div class="w-3 h-3 bg-primary rounded-full"></div>
-                    <p>All Products</p>
+                    <p>{{ $cat?$cat->category_name:'All Category' }}</p>
                 </div>
             </div>
         </section>
@@ -18,9 +18,20 @@
                 <div class="sm:w-[32%] border-t ">
                     @foreach ($categories as $category)
                     <div class="w-full cursor-pointer pt-5">
-                        <a href="{{ route('categories.product', ['id' => $category->id]) }}" class="font-medium smd:max-sm:px-6 sm:px-2 md:px-6 z-10 hovercategorydiv border py-4 flex justify-between">
+                        <a href="#" class="font-medium smd:max-sm:px-6 sm:px-2 md:px-6 z-10 hovercategorydiv border py-4 flex justify-between toggle-category">
+                            {{-- {{ route('categories.product', ['id' => $category->id]) }} --}}
                             {{ strtoupper($category->category_name) }}
                             <span class="text-xl sm:hidden lg:block">></span><span class="hovercategory"></span></a>
+                            <ul class="mt-5 pl-4" style="padding-left: 12px; display: none;">
+                                {{-- {{ $category->childCategories }} --}}
+                                @if ($category->childCategories)
+                                    @foreach ($category->childCategories as $child)
+                                    <a href="{{ route('categories.product', ['id' => $child->id]) }}" class="font-medium smd:max-sm:px-6 sm:px-2 md:px-6 z-10 hovercategorydiv border py-4 flex justify-between">
+                                        {{ strtoupper($child->category_name) }}
+                                        <span class="text-xl sm:hidden lg:block">></span><span class="hovercategory"></span></a>
+                                    @endforeach
+                                @endif
+                            </ul>
                     </div>
                     @endforeach
                 </div>
@@ -30,7 +41,7 @@
                             href="{{ route('product.details', ['id' => $product->id]) }}">
                             <img class="" class="object-cover" src="{{ asset('images/product/' . $product->thumbnail[0]->images) }}" alt="">
                             <p class="font-medium text-center mt-3">
-                                {{ strtoupper($product->title) }}
+                                {{ strtoupper($product->parentcategory) }}
                             </p>
                         </a>
                     @endforeach
@@ -38,4 +49,19 @@
             </div>
         </section>
     </main>
+@endsection
+
+@section('script')
+    <script>
+        $(document).ready(function () {
+        $(".toggle-category").click(function () {
+            var $ul = $(this).next("ul");
+            $ul.slideToggle();
+
+            // Change icon based on the visibility of the ul
+            var $toggleIcon = $(this).find(".toggle-icon");
+            $toggleIcon.text($ul.is(":visible") ? "v" : ">");
+        });
+    });
+    </script>
 @endsection

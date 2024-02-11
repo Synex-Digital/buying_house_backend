@@ -31,7 +31,6 @@ Route::middleware('admin')->group(function () {
     Route::get('/category.delete/{id}', [CategoryController::class, 'category_delete'])->name('category.delete');
     // category route end
 
-
     // produt route start
     Route::get('/product', [ProductController::class, 'product'])->name('product');
     Route::get('/product/add', [ProductController::class, 'product_add'])->name('product.add');
@@ -39,6 +38,7 @@ Route::middleware('admin')->group(function () {
     Route::post('/product/store', [ProductController::class, 'product_store'])->name('product.store');
     Route::get('/product/show/{id}', [ProductController::class, 'product_show'])->name('product.show');
     Route::get('/product/delete/{id}', [ProductController::class, 'product_delete'])->name('product.delete');
+    Route::post('/product/update', [ProductController::class, 'product_update'])->name('product.update');
     Route::post('/product/update', [ProductController::class, 'product_update'])->name('product.update');
     // produt route end
 

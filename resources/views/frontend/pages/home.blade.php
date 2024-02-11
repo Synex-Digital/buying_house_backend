@@ -67,10 +67,10 @@
                             Fleece...
                         </p>
                         <div class="flex smd:max-md:justify-center gap-x-5 mt-7">
-                            <a
+                            <a href="{{ route('about') }}"
                                 class="uppercase font-ru font-medium text-primary px-6 smd:max-md:px-4 py-2 button !bg-white !z-10"><span
-                                    class="hoverspan"></span>view more</a>
-                            <a
+                                    class="hoverspan"></span>view mor{{ 'categories' }}</a>
+                            <a href="{{ route('contact') }}"
                                 class="uppercase font-ru !bg-white font-medium text-primary smd:max-md:px-4 px-6 py-2 button !z-10"><span
                                     class="hoverspan"></span>contact
                                 us</a>
@@ -86,9 +86,8 @@
                     <img width="100%" src="{{ asset('frontend/asset') }}/assets/showroom.jpg" />
                     <div class="flex justify-center mt-7">
                         <h3 class="font-ru font-medium text-center text-ptagcolor text-lg">
-                            A Trusted apparels sourcing house in <br />
+                            A trusted apparels sourcing house & buying house in<br />
                             The World
-                            <a class="text-primary">Buying House</a>
                         </h3>
                     </div>
                 </div>

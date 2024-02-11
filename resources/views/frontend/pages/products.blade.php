@@ -34,6 +34,11 @@
                             </p>
                         </a>
                     @endforeach
+                    <div class="w-full flex justify-center content-center">
+                        <div class="flex space-x-14">
+                            {{ $products->links('pagination::default') }}
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
