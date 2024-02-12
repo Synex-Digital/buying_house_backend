@@ -5,7 +5,6 @@ namespace App\Http\Controllers\Frontend;
 use App\Http\Controllers\Controller;
 use App\Models\Category;
 use App\Models\Product;
-use Illuminate\Http\Request;
 
 class FrontendController extends Controller
 {
@@ -27,7 +26,7 @@ class FrontendController extends Controller
 
     // products  view
     function products(){
-        $products = Product::paginate(16);
+        $products = Product::paginate(10);
         $categories = Category::where('parent_category_id' , null)->get();
         return view('frontend.pages.products', compact('products', 'categories'));
     }
@@ -57,14 +56,14 @@ class FrontendController extends Controller
     function categories_product($id){
         $cat = Category::find($id);
         $categories = Category::where('parent_category_id', null)->get();
-        $products = Product::where('parent_category_id', $id)->get();
+        $products = Product::where('parent_category_id', $id)->paginate(10);
         return view('frontend.pages.categories_products', compact('products', 'categories','cat'));
     }
 
     function subcategories_product($id){
         $cat = Category::find($id);
         $categories = Category::where('parent_category_id', null)->get();
-        $products = Product::where('category_id', $id)->get();
+        $products = Product::where('category_id', $id)->paginate(10);
         return view('frontend.pages.categories_products', compact('products', 'categories','cat'));
     }
 }
