@@ -29,7 +29,7 @@
         </section>
 
         <section class="pt-20 bg-white">
-            <div class="container mx-auto px-2 md:flex gap-x-2 smd:max-md:text-justify">
+            <div class="container mx-auto px-2 md:flex gap-x-5 smd:max-md:text-justify">
                 <div class="md:w-1/2 smd:max-md:flex justify-center">
                     <img src="{{ asset('frontend/asset/assets/buying-house.jpg.jpg') }}" />
                 </div>
@@ -72,8 +72,12 @@
                                     class="hoverspan"></span>view more</a>
                             <a href="{{ route('contact') }}"
                                 class="uppercase font-ru !bg-white font-medium text-primary smd:max-md:px-4 px-6 py-2 button !z-10"><span
-                                    class="hoverspan"></span>contact
-                                us</a>
+                                class="hoverspan"></span>contact us</a>
+                        </div>
+                        <div class="flex smd:max-md:justify-center gap-x-5">
+                            <a href="{{ route('profile') }}"
+                                class="uppercase font-ru !bg-white font-medium text-primary smd:max-md:px-4 px-6 py-2 button !z-10"><span
+                                class="hoverspan"></span>Download Profile</a>
                         </div>
                     </div>
                 </div>

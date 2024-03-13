@@ -3,6 +3,7 @@
 use App\Http\Controllers\Admin\AdminController;
 use App\Http\Controllers\Admin\CategoryController;
 use App\Http\Controllers\Admin\ProductController;
+use App\Http\Controllers\DownloadController;
 use App\Http\Controllers\Frontend\ContactController;
 use App\Http\Controllers\Frontend\FrontendController;
 use Illuminate\Support\Facades\Auth;
@@ -60,4 +61,8 @@ Route::get('/subcategories/product/{id}', [FrontendController::class, 'subcatego
 
 // frontend contact message route start
 Route::post('/contact/message/store' , [ContactController::class, 'contact_message_store'])->name('contact.message.store');
+
+//download profile
+
+Route::get('/download/profile' , [DownloadController::class, 'downloadProfile'])->name('profile');
 
