@@ -196,12 +196,12 @@ $categories = Category::where('parent_category_id', null)->get();
                         </li>
                     </ul>
                 </div>
-                <div class="md:w-[50%]">
-                    <h6 class="font-ru text-white text-3xl mb-8">Contact Us</h6>
+                <div class="md:w-[25%]">
+                    <h6 class="font-ru text-white text-3xl mb-8">Corporate Address</h6>
                     <div class="flex gap-x-5">
                         <i class="fa-solid fa-location-dot text-primary"></i>
                         <p class="text-white font-ru font-medium">
-                            House-36, Road-9, Sector-4 Uttara, Dhaka-1230.
+                            House-36, Road-9, Sector-4 Uttara, <br> Dhaka-1230.
                         </p>
                     </div>
                     <div class="flex gap-x-5 mt-5">
@@ -217,6 +217,29 @@ $categories = Category::where('parent_category_id', null)->get();
                         </p>
                     </div>
                 </div>
+
+                <div class="md:w-[25%]" style="padding-left: 40px;">
+                    <h6 class="font-ru text-white text-3xl mb-8">USA Address</h6>
+                    <div class="flex gap-x-5">
+                        <i class="fa-solid fa-location-dot text-primary"></i>
+                        <p class="text-white font-ru font-medium">
+                            2618 SE J Street, Bentonville, AR-72712
+                        </p>
+                    </div>
+                    <div class="flex gap-x-5 mt-5">
+                        <i class="fa-solid fa-phone text-primary"></i>
+                        <p class="text-white font-ru font-medium">
+                            +1-4796592356
+                        </p>
+                    </div>
+                    <div class="flex gap-x-5 mt-5">
+                        <i class="fa-solid fa-envelope text-primary"></i>
+                        <p class="text-white font-ru font-medium">
+                            dabirul@lnassociatelimited.com<br />
+                        </p>
+                    </div>
+                </div>
+
             </div>
             <div
                 class="font-ru px-2 font-medium text-white mt-12 border-t pt-8 border-[#27272771] flex justify-center"

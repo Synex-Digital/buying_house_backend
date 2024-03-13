@@ -70,9 +70,9 @@
                             <span class="mb-5 text-5xl font-semibold text-textcolor">Touch!</span>
                         </h6>
                         <h6 class="mt-10 mb-5 text-3xl font-medium text-textcolor">
-                            Head Office
+                            Corporate Office
                         </h6>
-                        <div class="sm:flex gap-x-5">
+                        <div class="sm:flex gap-x-5 justify-between">
                             <div class="flex items-center gap-x-5">
                                 <i class="fa-solid fa-location-dot text-3xl text-primary"></i>
                                 <div>
@@ -94,12 +94,44 @@
                                     <p class="text-ptagcolor">
                                         +8801703017360<br />
                                         +8801726225633<br />
-                                        zaherul.islam1978@gmail.com<br />
+                                        zaherul@lnassociatelimited.com<br />
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <h6 class="mt-10 mb-5 text-3xl font-medium text-textcolor">
+                            USA Office
+                        </h6>
+                        <div class="sm:flex gap-x-5 justify-between">
+                            <div class="flex items-center gap-x-5">
+                                <i class="fa-solid fa-location-dot text-3xl text-primary"></i>
+                                <div>
+                                    <p class="mb-3 text-xl font-medium text-textcolor">
+                                        Address
+                                    </p>
+                                    <p class="text-ptagcolor">
+                                        2618 SE J Street, Bentonville, AR-72712
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-x-5">
+                                <i class="fa-solid fa-envelope text-3xl text-primary"></i>
+                                <div>
+                                    <p class="mb-3 text-xl smd:max-sm:mt-5 font-medium text-textcolor">
+                                        Call Us / Email
+                                    </p>
+                                    <p class="text-ptagcolor">
+                                        +1-4796592356<br/>
+                                        dabirul@lnassociatelimited.com<br />
                                     </p>
                                 </div>
                             </div>
                         </div>
                     </div>
+
+
+
+
                 </div>
             </div>
         </section>
