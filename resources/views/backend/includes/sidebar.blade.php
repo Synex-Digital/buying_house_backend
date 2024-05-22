@@ -1,6 +1,6 @@
 <nav class="sidebar dark_sidebar">
     <div class="logo d-flex justify-content-between">
-        LN Associate Limited
+        LN Stitch & Clothing Ltd.
         <div class="sidebar_close_icon d-lg-none">
             <i class="ti-close"></i>
         </div>

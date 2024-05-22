@@ -35,14 +35,14 @@
                 </div>
                 <div class="md:w-1/2">
                     <p class="font-ru text-primary font-medium smd:max-md:text-center smd:max-md:mt-5">
-                        ABOUT LN Associate Limited
+                        ABOUT LN Stitch & Clothing Ltd.
                     </p>
                     <h2 class="font-ru text-4xl mt-3 mb-4 smd:max-md:text-center">
                         About
                     </h2>
                     <div class="font-ru text-ptagcolor flex flex-col gap-y-2">
                         <p>
-                            We LN Associate Limited is one of the Leading
+                            We LN Stitch & Clothing Ltd. is one of the Leading
                             Apparel Sourcing, Manufacturing and Buying
                             office in Dhaka, Bangladesh since 2007.
                         </p>
@@ -99,7 +99,7 @@
                     <div class="md:w-[48%] border-b md:border-r pt-7">
                         <img src="{{ asset('frontend/asset') }}/assets/fectory.svg" class="w-16" />
                         <h4 class="font-ru text-2xl font-semibold my-5 text-textcolor">
-                            LN Associate Limited Overview
+                            LN Stitch & Clothing Ltd. Overview
                         </h4>
                         <p class="text-ptagcolor font-ru font-semibold pb-7">
                             We Bringing a revolutionary change in the
@@ -243,7 +243,7 @@
                     </div>
                     <div class="md:w-1/2 smd:max-md:mt-5">
                         <p class="text-ptagcolor font-medium text-justify">
-                            LN Associate Limited is the largest peer-to-peer
+                            LN Stitch & Clothing Ltd. is the largest peer-to-peer
                             comparison initiative in the textile industry.
                             It tracks the apparel material and home textile
                             sector’s progress.
@@ -295,7 +295,7 @@
 
                 <div class="xl:w-[60%] smd:max-xl:mt-5">
                     <p class="font-ru text-justify font-medium text-textcolor ml-2 lg:text-xl">
-                        LN Associate Limited is operating in the textile
+                        LN Stitch & Clothing Ltd. is operating in the textile
                         market, as the manufacture and trader. As years go
                         by the range of produced textiles products has
                         increased.

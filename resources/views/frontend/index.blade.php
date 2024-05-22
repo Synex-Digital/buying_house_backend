@@ -10,7 +10,7 @@ $categories = Category::where('parent_category_id', null)->get();
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>LN Associate Limited</title>
+        <title>LN Stitch & Clothing Ltd.</title>
         <link rel="shortcut icon" href="{{ asset('logo.png') }}" type="image/x-icon">
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -244,7 +244,7 @@ $categories = Category::where('parent_category_id', null)->get();
             <div
                 class="font-ru px-2 font-medium text-white mt-12 border-t pt-8 border-[#27272771] flex justify-center"
             >
-                Copyright © 2024 LN Associate Limited . Developed By
+                Copyright © 2024 LN Stitch & Clothing Ltd. . Developed By
                 <a
                     class="text-primary ml-1 smd:max-md:contents"
                     href="https://synexdigital.com/"

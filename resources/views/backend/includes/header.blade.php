@@ -19,7 +19,7 @@
                         </div>
                         <div class="profile_info_iner">
                             <div class="profile_info_details">
-                                <a href="#">LN Associate Limited</a>
+                                <a href="#">LN Stitch & Clothing Ltd.</a>
                                 {{-- <a href="#">Settings</a> --}}
                                 <a href="{{ route('logout') }}" onclick="event.preventDefault();
                                 document.getElementById('logout-form').submit();">Log Out </a>

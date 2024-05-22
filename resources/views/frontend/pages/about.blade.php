@@ -24,7 +24,7 @@
                 <h6 class="text-primary font-medium smd:max-sm:mt-5 smd:max-sm:text-center">WHO WE ARE</h6>
                 <h5 class="text-5xl text-textcolor mt-7 smd:max-sm:text-center">About</h5>
                 <p class="text-ptagcolor mt-10 mb-5">
-                    We LN Associate Limited is one of the Leading
+                    We LN Stitch & Clothing Ltd. is one of the Leading
                     Apparel Sourcing, Manufacturing and Buying office in
                     Dhaka, Bangladesh since 2007.
                 </p>
@@ -50,7 +50,7 @@
                     Mask etc.
                 </p>
                 <p class="text-ptagcolor my-5">
-                    LN Associate Limited has been doing business with
+                    LN Stitch & Clothing Ltd. has been doing business with
                     European, American, Canadian, Australian, New
                     Zealand & South Africans clothing brands.
                 </p>
