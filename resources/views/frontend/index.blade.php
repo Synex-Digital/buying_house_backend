@@ -213,7 +213,7 @@ $categories = Category::where('parent_category_id', null)->get();
                     <div class="flex gap-x-5 mt-5">
                         <i class="fa-solid fa-envelope text-primary"></i>
                         <p class="text-white font-ru font-medium">
-                            zaherul@lnassociatelimited.com<br />
+                            zaherul@lnstitchandclothingltd.com<br />
                         </p>
                     </div>
                 </div>
@@ -229,13 +229,14 @@ $categories = Category::where('parent_category_id', null)->get();
                     <div class="flex gap-x-5 mt-5">
                         <i class="fa-solid fa-phone text-primary"></i>
                         <p class="text-white font-ru font-medium">
-                            +1-4796592356
+                            +1 (479) 659-2356,<br>
+                            +1 (479) 685-2586
                         </p>
                     </div>
                     <div class="flex gap-x-5 mt-5">
                         <i class="fa-solid fa-envelope text-primary"></i>
                         <p class="text-white font-ru font-medium">
-                            dabirul@lnassociatelimited.com<br />
+                            dabirul@lnstitchandclothingltd.com<br />
                         </p>
                     </div>
                 </div>
@@ -244,7 +245,7 @@ $categories = Category::where('parent_category_id', null)->get();
             <div
                 class="font-ru px-2 font-medium text-white mt-12 border-t pt-8 border-[#27272771] flex justify-center"
             >
-                Copyright © 2024 LN Stitch & Clothing Ltd. . Developed By
+                Copyright © 2024 LN Stitch & Clothing Ltd. Developed By
                 <a
                     class="text-primary ml-1 smd:max-md:contents"
                     href="https://synexdigital.com/"

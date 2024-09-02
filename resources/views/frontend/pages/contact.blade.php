@@ -80,7 +80,7 @@
                                         Address
                                     </p>
                                     <p class="text-ptagcolor">
-                                        House-36, Road-9, Sector-4 Uttara,
+                                        House-17 (1st Floor), Road-14, Sector-13 Uttara,
                                         Dhaka-1230.
                                     </p>
                                 </div>
@@ -94,7 +94,7 @@
                                     <p class="text-ptagcolor">
                                         +8801703017360<br />
                                         +8801726225633<br />
-                                        zaherul@lnassociatelimited.com<br />
+                                        zaherul@lnstitchandclothingltd.com<br />
                                     </p>
                                 </div>
                             </div>
@@ -121,8 +121,9 @@
                                         Call Us / Email
                                     </p>
                                     <p class="text-ptagcolor">
-                                        +1-4796592356<br/>
-                                        dabirul@lnassociatelimited.com<br />
+                                        +1 (479) 659-2356<br/>
+                                        +1 (479) 685-2586  <br>
+                                        dabirul@lnstitchandclothingltd.com<br />
                                     </p>
                                 </div>
                             </div>

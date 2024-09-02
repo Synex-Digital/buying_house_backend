@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Storage;
 class DownloadController extends Controller
 {
     public function downloadProfile(){
-        $file = public_path('profileDownload/LNAssociateLimited.pdf');
-        return response()->download($file, "LNAssociateLimited.pdf");
+        $file = public_path('profileDownload/ProfileofLNStitch&ClothingLimited.pdf');
+        return response()->download($file, "ProfileofLNStitch&ClothingLimited.pdf");
     }
 }

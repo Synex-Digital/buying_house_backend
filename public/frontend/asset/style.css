@@ -15,7 +15,7 @@ body {
 .button {
     text-align: center;
     margin: 20px 0;
-    border: #c3002f solid 1px;
+    border: #037947 solid 1px;
     cursor: pointer;
     position: relative;
     overflow: hidden;
@@ -23,7 +23,7 @@ body {
 }
 
 .hoverspan {
-    background: #c3002f;
+    background: #037947;
     width: 0;
     height: 100%;
     position: absolute;
@@ -41,7 +41,7 @@ body {
 
 .hovercategorydiv {
     text-align: center;
-    border: #c3002f solid 1px;
+    border: #037947 solid 1px;
     cursor: pointer;
     position: relative !important;
     overflow: hidden;
@@ -59,23 +59,23 @@ body {
 
 .hovercategorydiv:hover .hovercategory {
     width: 8px;
-    background: #c3002f;
+    background: #037947;
 }
 
 .hovercategorydiv:hover {
-    color: #c3002f;
+    color: #037947;
 }
 
 .nav_producthover:hover {
-    color: #c3002f;
+    color: #037947;
 }
 
 .nav_producthover > .nav_product {
-    color: #262626; 
+    color: #262626;
   }
 
 .nav_producthover > .nav_product li:hover {
-    color: #c3002f; 
+    color: #037947;
 }
 
 .nav_product {
