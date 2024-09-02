@@ -201,7 +201,8 @@ $categories = Category::where('parent_category_id', null)->get();
                     <div class="flex gap-x-5">
                         <i class="fa-solid fa-location-dot text-primary"></i>
                         <p class="text-white font-ru font-medium">
-                            House-36, Road-9, Sector-4 Uttara, <br> Dhaka-1230.
+                            House-17 (1st Floor), Road-14, Sector-13 Uttara,
+                                        Dhaka-1230.
                         </p>
                     </div>
                     <div class="flex gap-x-5 mt-5">
