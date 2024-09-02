@@ -144,6 +144,24 @@
                             </p>
                         </div>
                     </div>
+                    <div>
+                        <img
+                            class="md:w-[250px] h-[350px] sm:w-[200px] sm:h-[300px]"
+                            src="{{ asset('naziullah.jpg') }}"
+                        />
+                        <div
+                            class="bg-white relative shadow-lg inline-block bottom-8 font-ru md:p-3 p-3 sm:p-1"
+                        >
+                            <p
+                                class="font-medium text-primary text-xl"
+                            >
+                            AKM Naziullah
+                            </p>
+                            <p class="text-textcolor font-medium">
+                                Director
+                            </p>
+                        </div>
+                </div>
 
                     <div>
                         <img
@@ -163,7 +181,7 @@
                             </p>
                         </div>
                     </div>
-                </div>
+
             </div>
         </div>
     </section>
